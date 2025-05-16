@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 
 image = np.zeros((300, 600, 3), dtype="uint8")
 
-text = "RAKSHITHA"
+text = "PRAJAN P"
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, text, (20, 200), font, 3, (255, 255, 255), 7)
 
